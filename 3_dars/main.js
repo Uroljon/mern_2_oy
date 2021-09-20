@@ -13,7 +13,7 @@ function ajax(user) {
             <a href="${response[0].owner.html_url}">check out this user</a>
             `;
             response.forEach(repo => {
-            document.querySelector("#result").innerHTML += `
+                document.querySelector("#result").innerHTML += `
             <div class="repo">
                 
                 <h3 id="repo_name">${repo.name}</h3>
@@ -21,13 +21,15 @@ function ajax(user) {
                 <a href="${repo.html_url}">Go to repo website</a>
             </div>
             `;
-                
+
             });
-console.log(response);
-        }else{
+        } else {
             document.querySelector("#result").innerHTML = "bunaqa user yo'qmi deyman :}";
         }
     }
+    // xhr.onerror = () => {
+    //     document.querySelector("#result").innerHTML = "bunaqa user yo'qmi deyman :}";
+    // }
     xhr.send()
 }
 
