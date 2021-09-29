@@ -1,0 +1,2 @@
+text from writefile()
+ from append file
