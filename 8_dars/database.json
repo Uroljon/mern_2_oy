@@ -1,1 +1,6 @@
-{"users":[{"name":"Uroljon+Khidirboev","phone":"998901527511"},{"name":"Abdusattor","phone":"998901527511"}]}
+{
+    "users": [
+        { "name": "Uroljon+Khidirboev", "phone": "998901527511" },
+        { "name": "Abdusattor", "phone": "998901527511" }
+    ]
+}

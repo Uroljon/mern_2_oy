@@ -1,1 +1,6 @@
-{"messages":[{"username":"Uroljon","message":"Salom do'stlar :)"},{"message":"Qalaysizlar","username":"Abdusattor"}]}
+{
+    "messages": [
+        { "username": "Uroljon", "message": "Salom do'stlar :)" },
+        { "message": "Qalaysizlar", "username": "Abdusattor" }
+    ]
+}
