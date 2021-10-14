@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>login to BlabberGram :)</title>
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="container vh-100 d-flex flex-column align-items-center justify-content-center">
+        <form action="/" method="POST" class="w-50">
+            <h1 class="text-center">Login</h1>
+            <div class="form-floating mb-3">
+                <input name="user_name" type="text" class="form-control" id="floatingInput" placeholder="Username">
+                <label for="floatingInput">Username</label>
+            </div>
+            <% if(!ok){ %>
+                <p style="color: red;">
+                    <%=message %>
+                </p>
+                <% } %>
+                    <!-- <div class="form-floating mb-3">
+                <input name="phone" type="tel" class="form-control" id="floatingPassword"
+                    placeholder="+99 8xx xxx xx xx">
+                <label for="floatingPassword">Phone</label>
+            </div> -->
+                    <button class="btn btn-lg btn-primary" type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
