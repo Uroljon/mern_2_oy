@@ -4,6 +4,7 @@ function ajax(user) {
     xhr.open("GET", `https://api.github.com/users/${user}/repos`, true) //last param is_asyncronous_boolean
     xhr.onload = function () {
         if (this.status === 200) {
+            // console.log(this.responseText);
             let response = JSON.parse(this.response)
             document.querySelector("#result").innerHTML = "";
             // document.querySelector("#result").insertAdjacentHTML("afterbegin", `<img src="${response[0].owner.avatar_url}">`)
