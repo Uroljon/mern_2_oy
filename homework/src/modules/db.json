@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "user_id": 1,
+            "full_name": "Uroljon Khidirboev",
+            "user_name": "@Uroljon",
+            "password": "123",
+            "token": "birnima"
+        }
+    ],
+    "courses": [
+        {
+            "course_id": 1,
+            "course_name": "Complete React course zero to hero",
+            "course_author": "Andea Negoe",
+            "course_price": "100$",
+            "course_duration": "5 hours",
+            "students_enrolled": 5010,
+            "keywords": [
+                "react",
+                "javaScript",
+                "jQuery",
+                "bootstrap",
+                "css",
+                "html",
+                "bootcamp",
+                "zero to hero"
+            ]
+        },
+        {
+            "course_id": 2,
+            "course_name": "Hakuna Matata",
+            "course_author": "Me",
+            "course_price": "1000$",
+            "course_duration": "50 hours",
+            "students_enrolled": "321k",
+            "keywords": ["motivation", "self improvment"]
+        }
+    ]
+}
